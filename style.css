@@ -1,3 +1,10 @@
-.hidden {
-  display: none;
+.grid {
+  display: grid;
+  grid-template-areas: "navbar maindoc";
+}
+#navbar {
+  grid-area: navbar;
+}
+#maindoc {
+  grid-area: maindoc;
 }
